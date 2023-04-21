@@ -1,0 +1,98 @@
+
+:root {
+	--ff-primary: "Nunito", Helveltica, Arial, sans-serif;
+}
+
+header {
+    display:flexbox; /* torna o elemento header um flex container */
+    align-items: center; /* centraliza verticalmente os itens */
+    margin: 0; /* remove a margem padrão do título */
+    margin-top: 10px; /* adiciona um espaço de 10px acima do texto */
+  }
+
+  .container {
+    display: flex; /* torna o elemento pai um flex container */
+    justify-content: center; /* centraliza horizontalmente os itens dentro do container */
+  }
+
+  img {
+	width: 200px;
+	height: 200px;
+	object-fit: fill;
+}
+
+.conteudo {
+    font-size: 20px;
+}
+
+.topo{
+    
+	line-height:normal;
+	text-align: center;
+	margin-bottom: 0px;
+	
+}
+
+body {
+    background-color: #a5bdff;
+    }
+    
+body {
+    margin: 25px;
+     border: 10px;
+     padding: 20px ;
+}
+
+input {
+    line-height:normal;
+	display: flexbox;
+	align-items: center;
+	justify-content: space-between;
+    border:#ffffff;
+	width: 300px; 
+    height: 30px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+    
+}
+
+
+button {
+
+		cursor: pointer;
+		background: none;
+		color: whitesmoke;
+
+	line-height:normal;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	background-color: #10531a;
+	/* cor de fundo do botão */
+	border: none;
+	/* remove a borda */
+	color: white;
+	/* cor do texto */
+	padding: 15px 32px;
+	/* espaçamento interno */
+	text-align: center;
+	/* alinhamento do texto */
+	text-decoration: none;
+	/* remove sublinhado */
+	display: flexbox;
+	/* exibe como bloco */
+	font-size: 16px;
+	/* tamanho da fonte */
+	margin: auto;
+	/* espaçamento externo */
+	cursor: pointer;
+	/* cursor de mão ao passar por cima */
+	display: flex;
+}
+
+
+p,h1 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
